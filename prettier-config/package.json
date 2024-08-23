@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config",
+  "name": "@rimurugroup/prettier-config",
   "version": "1.0.0",
   "description": "shared prettier config",
   "homepage": "",
