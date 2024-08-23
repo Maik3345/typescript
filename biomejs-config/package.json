@@ -1,25 +1,26 @@
 {
-  "name": "@rimurugroup/biomejs-config",
-  "version": "1.2.0-beta-5",
-  "description": "shared biomejs config",
-  "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": "",
-    "directory": ""
-  },
-  "type": "module",
-  "exports": {
-    ".": "./index.cjs",
-    "./biome": "./biome.json"
-  },
-  "dependencies": {
-    "@biomejs/biome": "^1.8.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "bin": {
-    "biomejs-config": "./bin/biomejs-config.cjs"
-  }
+	"name": "@rimurugroup/biomejs-config",
+	"version": "1.2.0",
+	"description": "shared biomejs config",
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": "",
+		"directory": ""
+	},
+	"type": "module",
+	"exports": {
+		".": "./index.cjs",
+		"./biome": "./biome.json"
+	},
+	"scripts": {
+		"lint": "biome lint --write ",
+		"format": "biome format --write"
+	},
+	"dependencies": {
+		"@biomejs/biome": "^1.8.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

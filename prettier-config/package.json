@@ -1,24 +1,22 @@
 {
-  "name": "@rimurugroup/prettier-config",
-  "version": "1.0.0",
-  "description": "shared prettier config",
-  "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": "",
-    "directory": ""
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "version": "chan release $npm_package_version && git add CHANGELOG.md"
-  },
-  "peerDependencies": {
-    "prettier": "^3.3.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@rimurugroup/prettier-config",
+	"version": "1.0.0",
+	"description": "shared prettier config",
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": "",
+		"directory": ""
+	},
+	"main": "index.js",
+	"files": ["index.js"],
+	"scripts": {
+		"version": "chan release $npm_package_version && git add CHANGELOG.md"
+	},
+	"peerDependencies": {
+		"prettier": "^3.3.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

@@ -1,21 +1,23 @@
 {
-  "name": "typescript",
-  "version": "1.0.0",
-  "description": "> Typescript packages",
-  "main": "commitlint.config.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npx husky"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "husky": "^9.1.5"
-  }
+	"name": "typescript",
+	"version": "1.0.0",
+	"description": "> Typescript packages",
+	"main": "commitlint.config.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"lint": "biome lint --write ",
+		"format": "biome format --write",
+		"prepare": "npx husky"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^19.4.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@rimurugroup/biomejs-config": "^1.2.0",
+		"husky": "^9.1.5"
+	}
 }
